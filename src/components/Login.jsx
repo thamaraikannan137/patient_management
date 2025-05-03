@@ -43,7 +43,7 @@ const Login = () => {
             <Typography variant="h5" fontWeight={500}>
               Welcome to Rotary Club
             </Typography>
-            <Typography variant="body1" color="textSecondary">
+            <Typography variant="body1" color="textSecondary" className="font-sans">
               Please sign in to your account to begin
             </Typography>
           </div>
@@ -97,7 +97,7 @@ const Login = () => {
             Login
           </Button>
 
-          <div className="text-center text-sm">
+          <div className="text-center text-sm font-sans">
             <span>Not registered? </span>
             <span style={{ color: "#282C87", cursor: "pointer" }}>
               Contact an administrator
